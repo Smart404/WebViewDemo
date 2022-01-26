@@ -16,6 +16,7 @@ buildscript {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+//组件化这个设置要保证版本一致
 ext{
     compileSdk = 31
     minSdk = 26
