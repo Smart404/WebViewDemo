@@ -1,5 +1,7 @@
 package com.lee.common.autoservice
 
+import android.content.Context
+
 interface SingleWebViewService {
-    fun startWebViewActivity(url:String)
+    fun startWebViewActivity(context: Context, url: String)
 }
