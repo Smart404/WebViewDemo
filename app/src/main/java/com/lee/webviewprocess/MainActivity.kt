@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
         binding.btnStart.setOnClickListener {
-            loaderService?.startWebViewActivity(this, "www.baidu.com")
+            loaderService?.startWebViewActivity(this, "https://www.baidu.com")
         }
     }
 
